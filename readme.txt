@@ -7,9 +7,9 @@ http://processing.org/discourse/yabb2/YaBB.pl?num=1272389054
 
 Zip download, Wiki, and source code links at GitHub
 ----------------------- 
-http://github.com/acsmith/napplet/downloads
-http://wiki.github.com/acsmith/napplet/
-http://github.com/acsmith/napplet
+http://github.com/phaze9/napplet/downloads
+http://wiki.github.com/phaze9/napplet/
+http://github.com/phaze9/napplet
 
 Notes on using the source code
 ==============================
