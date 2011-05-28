@@ -119,8 +119,5 @@ public class FireCube extends NApplet {
 		}
 		updatePixels();
 	}
-	
-	protected void paint() {
-		super.paint();
-	}
+
 }

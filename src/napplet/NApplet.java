@@ -4,6 +4,7 @@ import java.awt.Dimension;
 import java.awt.Frame;
 import java.awt.Insets;
 import java.awt.Toolkit;
+import java.awt.Graphics;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
 import java.awt.event.InputEvent;
@@ -604,7 +605,7 @@ public class NApplet extends PApplet implements Nit, MouseWheelListener,
 	 * PApplet.image() method to paint the NApplet's pixels into the parent's
 	 * display. Otherwise, just falls through to PApplet.paint().
 	 */
-	protected void paint() {
+	public void paint(Graphics screen) {
 		if (embeddedNApplet) {
 			if (!nappletHidden) {
 				loadPixels();
@@ -614,7 +615,7 @@ public class NApplet extends PApplet implements Nit, MouseWheelListener,
 				parentPApplet.image(this.g, 0, 0);
 			}
 		} else
-			super.paint();
+			super.paint(screen);
 	}
 
 	/**
