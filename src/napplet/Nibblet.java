@@ -919,15 +919,15 @@ public class Nibblet extends NitBase {
 		return g.displayable();
 	}
 
-	public void setCache(Object parent, Object storage) {
+	public void setCache(PGraphics parent, Object storage) {
 		g.setCache(parent, storage);
 	}
 
-	public Object getCache(Object parent) {
+	public Object getCache(PGraphics parent) {
 		return g.getCache(parent);
 	}
 
-	public void removeCache(Object parent) {
+	public void removeCache(PGraphics parent) {
 		g.removeCache(parent);
 	}
 

@@ -201,7 +201,7 @@ public class NApplet extends PApplet implements Nit, MouseWheelListener,
 			this.defaultSize = true;
 			int w = sketchWidth();
 			int h = sketchHeight();
-			g = makeGraphics(w, h, getSketchRenderer(), null, true);
+			g = makeGraphics(w, h, sketchRenderer(), null, true);
 			setSize(w, h);
 			setPreferredSize(new Dimension(w, h));
 		}
