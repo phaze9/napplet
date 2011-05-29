@@ -11,4 +11,4 @@ Zip download, Wiki, and source code links at GitHub
 
 ### Design
 
-![Class diagram](/resources/napplet.png)
+![Class diagram](resources/napplet.png)
