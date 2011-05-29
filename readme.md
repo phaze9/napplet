@@ -11,4 +11,4 @@ Zip download, Wiki, and source code links at GitHub
 
 ### Design
 
-![Class diagram](resources/napplet.png)
+![Class diagram](https://github.com/phaze9/napplet/raw/master/resources/napplet.png)
