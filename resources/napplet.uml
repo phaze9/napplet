@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>napplet</OriginalElement>
+  <nodes>
+    <node x="68.75" y="0.0">napplet.Nit</node>
+    <node x="0.0" y="80.0">napplet.NitBase</node>
+    <node x="104.0" y="80.0">napplet.NApplet</node>
+    <node x="228.0" y="79.0">napplet.NFrame</node>
+    <node x="38.25" y="240.0">napplet.test</node>
+    <node x="165.0" y="1.0">napplet.NAppletManager</node>
+    <node x="0.5" y="160.0">napplet.Nibblet</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="napplet.test" target="napplet.NApplet">
+      <point x="28.5" y="-15.0" />
+      <point x="123.75" y="215.0" />
+      <point x="148.5" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="napplet.NApplet" target="napplet.Nit">
+      <point x="0.0" y="-15.0" />
+      <point x="148.5" y="55.0" />
+      <point x="108.5" y="55.0" />
+      <point x="13.25" y="15.0" />
+    </edge>
+    <edge source="napplet.NitBase" target="napplet.Nit">
+      <point x="0.0" y="-15.0" />
+      <point x="42.0" y="55.0" />
+      <point x="82.0" y="55.0" />
+      <point x="-13.25" y="15.0" />
+    </edge>
+    <edge source="napplet.Nibblet" target="napplet.NitBase">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="napplet.test" target="napplet.Nibblet">
+      <point x="-28.5" y="-15.0" />
+      <point x="66.75" y="215.0" />
+      <point x="42.0" y="215.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="194.0" y="173.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
