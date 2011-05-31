@@ -603,6 +603,8 @@ public class NApplet extends PApplet implements Nit, MouseWheelListener,
 	 * Overrides PApplet.paint(). If the NApplet is embedded, uses the
 	 * PApplet.image() method to paint the NApplet's pixels into the parent's
 	 * display. Otherwise, just falls through to PApplet.paint().
+     *
+     * TODO PApplet.paint() is gone
 	 *
 	protected void paint() {
 		if (embeddedNApplet) {
